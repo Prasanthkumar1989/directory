@@ -1,3 +1,4 @@
+var serviceURL = "http://itsprasanth.com/services/";
 $('#reportListPage').live('pageshow', function(event) {
 	var id = getUrlVars()["id"];
 	console.log("reports for " + id);
