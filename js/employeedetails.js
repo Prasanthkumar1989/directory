@@ -1,4 +1,4 @@
-var serviceURL = "http://localhost/directory/services/";
+var serviceURL = "http://itsprasanth/services/";
 var employee;
 $('#detailsPage').live('pageshow', function(event) {
 	var id = getUrlVars()["id"];
